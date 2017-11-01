@@ -11,8 +11,30 @@ body{
 	align-items: flex-start;
 	display: flex;
 	justify-content: space-between;
-
-
+}
+.sessao{
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: flex-end;
+	justify-content: center;
+}
+.caixatexto{
+	width: 60%;
+	height: 60vh;
+	border: 2px solid #fff;
+	position: absolute;
+	top: 5px;
+	display: flex;
+	align-items: flex-end;
+	justify-content: flex-end;
+}
+.titulo{
+	width: 70%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
 }
 .fotologo{
 	width: 15%;
@@ -27,6 +49,13 @@ body{
 	top: 50px;
 	right:35px;
 	background-color:  rgba(255, 255, 255, 0.75);
+}
+.foto3{
+	width: 48%;
+	margin: 8px;
+}
+.fotodupla-foto{
+	width: 100%;
 }
 .rodape{
 	background: url("fotos/foto02.jpg") no-repeat center;
